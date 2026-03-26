@@ -503,10 +503,7 @@ footer {
   <div class="nav-inner">
     <div class="nav-left">
       <!-- Hypher wordmark / logo inline SVG -->
-      <svg class="nav-hypher-mark" viewBox="0 0 28 28" fill="none" xmlns="http://www.w3.org/2000/svg">
-        <rect width="28" height="28" rx="6" fill="rgba(93,211,158,0.1)" stroke="rgba(93,211,158,0.25)" stroke-width="1"/>
-        <text x="14" y="19" font-family="'JetBrains Mono', monospace" font-size="13" font-weight="700" fill="#5dd39e" text-anchor="middle">h</text>
-      </svg>
+      <img src="./img/avatar.png" alt="hypher.de" class="nav-hypher-mark" style="border-radius:6px; object-fit:cover;">
       <a class="nav-logo" href="https://hypher.de">hypher<span>.de</span></a>
     </div>
     <div class="nav-links">
@@ -532,7 +529,7 @@ footer {
         <span class="dim">für dich </span>arbeitet<span class="dim">.</span>
       </h1>
       <p class="hero-sub">
-        Von <strong>IT-Security-Audits</strong> über maßgeschneiderte Webseiten bis zu
+        Von <strong>Security-Consulting</strong> über maßgeschneiderte Webseiten bis zu
         VM-Infrastruktur. Ich liefere verlässliche, professionelle Lösungen für
         kleine und mittlere Unternehmen. Kein Bullshit, <strong>echte Ergebnisse</strong>.
       </p>
@@ -566,19 +563,19 @@ footer {
         </div>
         <div class="terminal-body">
           <div><span class="t-prompt">niklas@hypher</span><span class="t-cmd"> ~ $ ./audit.sh --target client.de</span></div>
-          <div class="t-comment"># Initialisiere Security-Analyse...</div>
+          <div class="t-comment"># Initialisiere Unternehmens-Analyse...</div>
           <span class="t-blank"></span>
-          <div><span class="t-out">[<span class="t-hl">INFO</span>]  Portscan gestartet</span></div>
-          <div><span class="t-out">[<span class="t-hl">INFO</span>]  TLS-Zertifikat geprüft ✓</span></div>
-          <div><span class="t-out">[<span class="t-hl">WARN</span>]  Offener Port: 8080 (HTTP)</span></div>
+          <div><span class="t-out">[<span class="t-hl">INFO</span>]  Unternehmen wird überprüft</span></div>
+          <div><span class="t-out">[<span class="t-hl">INFO</span>]  Zertifikate geprüft ✓</span></div>
+          <div><span class="t-out">[<span class="t-hl">WARN</span>]  Wordpress: Unsichere Version erkannt</span></div>
           <div><span class="t-out">[<span class="t-err">CRIT</span>]  CVE-2024-3094 — ungepatchter Dienst</span></div>
           <span class="t-blank"></span>
           <div><span class="t-out">[<span class="t-hl">INFO</span>]  Webapplikation analysiert</span></div>
-          <div><span class="t-out">[<span class="t-success">OK  </span>]  WAF aktiv</span></div>
-          <div><span class="t-out">[<span class="t-err">CRIT</span>]  XSS-Lücke in /search gefunden</span></div>
+          <div><span class="t-out">[<span class="t-success">OK  </span>]  Website besteht Tests</span></div>
+          <div><span class="t-out">[<span class="t-err">CRIT</span>]  Manueller Aufwand erkannt</span></div>
           <span class="t-blank"></span>
-          <div><span class="t-out t-gold">► Bericht generiert: 3 kritische Findings</span></div>
-          <div><span class="t-out t-gold">► Empfehlungen: report_client.pdf</span></div>
+          <div><span class="t-out t-gold">► Bericht generiert: 3 kritische Punkte</span></div>
+          <div><span class="t-out t-gold">► Handlungsplan: report_client.pdf</span></div>
           <span class="t-blank"></span>
           <div><span class="t-prompt">niklas@hypher</span><span class="t-cmd"> ~ $ </span><span class="cursor"></span></div>
         </div>
